@@ -10,7 +10,7 @@ from helpers import SqlQueries
 # AWS_SECRET = os.environ.get('AWS_SECRET')
 
 default_args = {
-    'owner': 'udacity',
+  
     'start_date': datetime.utcnow(),
     'depends_on_past': False,
     'email_on_retry': False,
